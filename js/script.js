@@ -35,7 +35,7 @@
 		var windowWidth = $(window).width();
 		if (windowWidth <= 1199) {
 		}else {
-			$(".card-inner").niceScroll();
+	 $(".card-inner").niceScroll();
 		}
 	}
 	customScrollbar();
