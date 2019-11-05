@@ -27,7 +27,7 @@
 	$('.typed-title').typed({
 		stringsElement: $('.typing-title'),
 		backDelay: 1000,
-		typeSpeed: 0,
+		typeSpeed: 0.5,
 		loop: true
 	});
 

@@ -252,7 +252,7 @@ li {
 }
 
 .social-icon-two li a {
-  font-size: 14px;
+  font-size: 18px;
   color: #848484;
   height: 45px;
   width: 45px;
@@ -520,7 +520,7 @@ img {
 
 .card-outer .card-inner-box {
   position: relative;
-  min-height: 600px;
+  min-height: 700px;
   background-image: -moz-linear-gradient(110deg, rgb(145, 71, 255) 0%, rgb(121, 39, 245) 100%);
   background-image: -webkit-linear-gradient(110deg, rgb(145, 71, 255) 0%, rgb(121, 39, 245) 100%);
   background-image: -ms-linear-gradient(110deg, rgb(145, 71, 255) 0%, rgb(121, 39, 245) 100%);
@@ -835,7 +835,7 @@ img {
   content: '';
   position: absolute;
   left: 12px;
-  top: 60px;
+  top: 6px;
   border-left: 1px solid #d0d0d0;
   bottom: 0;
 }
@@ -941,6 +941,21 @@ img {
   font-size: 14px;
 }
 
+.card-resume .timeline-column .timeline-block .text ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.card-resume .timeline-column .timeline-block .text li {
+  list-style-type: circle;
+}
+
+.card-resume .timeline-column .timeline-block .qrcode {
+  text-align: left;
+}
+
+
+
 /*** 
 
 ====================================================================
@@ -1019,10 +1034,17 @@ img {
   position: relative;
   font-size: 18px;
   margin-bottom: 10px;
+
 }
 
 .services-block h4 a {
   color: #222;
+}
+
+.services-block h4 a:focus,
+.services-block h4 a:hover {
+  color: #9147ff;
+  text-decoration: underline;
 }
 
 .services-block .text {
