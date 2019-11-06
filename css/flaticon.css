@@ -3,64 +3,203 @@
   	Creation date: 29/08/2018 18:34
   	*/
 
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/Flaticon.woff") format("woff"),
-       url("../fonts/Flaticon.ttf") format("truetype"),
-       url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: "Flaticon";
+	  src: url("../fonts/Flaticon.eot");
+	  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/Flaticon.woff") format("woff"),
+	    url("../fonts/Flaticon.ttf") format("truetype"),
+	    url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
-  }
-}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	  @font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	  }
+	}
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-font-style: normal;
-}
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	  font-family: Flaticon;
+	  font-style: normal;
+	}
 
-.flaticon-multimedia:before { content: "\f100"; }
-.flaticon-drawing:before { content: "\f101"; }
-.flaticon-drawing-1:before { content: "\f102"; }
-.flaticon-layers:before { content: "\f103"; }
-.flaticon-cogwheel:before { content: "\f104"; }
-.flaticon-construction:before { content: "\f105"; }
-.flaticon-can:before { content: "\f106"; }
-.flaticon-signs:before { content: "\f107"; }
-.flaticon-favorite:before { content: "\f108"; }
-.flaticon-arrows:before { content: "\f109"; }
-.flaticon-note:before { content: "\f10a"; }
-.flaticon-computer:before { content: "\f10b"; }
-.flaticon-phone-settings:before { content: "\f10c"; }
-.flaticon-technology:before { content: "\f10d"; }
-.flaticon-envelope:before { content: "\f10e"; }
-.flaticon-note-1:before { content: "\f10f"; }
-.flaticon-social:before { content: "\f110"; }
-.flaticon-left-quotes-sign:before { content: "\f111"; }
-.flaticon-businessman:before { content: "\f112"; }
-.flaticon-edit:before { content: "\f113"; }
-.flaticon-curriculum:before { content: "\f114"; }
-.flaticon-layers-1:before { content: "\f115"; }
-.flaticon-tools:before { content: "\f116"; }
-.flaticon-set-square:before { content: "\f117"; }
-.flaticon-blog:before { content: "\f118"; }
-.flaticon-send-mail:before { content: "\f119"; }
-.flaticon-smartphone:before { content: "\f11a"; }
-.flaticon-book:before { content: "\f11b"; }
-.flaticon-case:before { content: "\f11c"; }
-.flaticon-vector:before { content: "\f11d"; }
-.flaticon-pen-tool:before { content: "\f11e"; }
-.flaticon-coding:before { content: "\f11f"; }
-.flaticon-phone:before { content: "\f120"; }
-.flaticon-tools-and-utensils:before { content: "\f121"; }
-.flaticon-folder:before { content: "\f122"; }
-.flaticon-web-design:before { content: "\f123"; }
-.flaticon-photo-camera:before { content: "\f124"; }
+	.flaticon-multimedia:before {
+	  content: "\f100";
+	}
+
+	.flaticon-drawing:before {
+	  content: "\f101";
+	}
+
+	.flaticon-drawing-1:before {
+	  content: "\f102";
+	}
+
+	.flaticon-layers:before {
+	  content: "\f103";
+	}
+
+	.flaticon-cogwheel:before {
+	  content: "\f104";
+	}
+
+	.flaticon-construction:before {
+	  content: "\f105";
+	}
+
+	.flaticon-can:before {
+	  content: "\f106";
+	}
+
+	.flaticon-signs:before {
+	  content: "\f107";
+	}
+
+	.flaticon-favorite:before {
+	  content: "\f108";
+	}
+
+	.flaticon-arrows:before {
+	  content: "\f109";
+	}
+
+	.flaticon-note:before {
+	  content: "\f10a";
+	}
+
+	.flaticon-computer:before {
+	  content: "\f10b";
+	}
+
+	.flaticon-phone-settings:before {
+	  content: "\f10c";
+	}
+
+	.flaticon-technology:before {
+	  content: "\f10d";
+	}
+
+	.flaticon-envelope:before {
+	  content: "\f10e";
+	}
+
+	.flaticon-note-1:before {
+	  content: "\f10f";
+	}
+
+	.flaticon-social:before {
+	  content: "\f110";
+	}
+
+	.flaticon-left-quotes-sign:before {
+	  content: "\f111";
+	}
+
+	.flaticon-businessman:before {
+	  content: "\f112";
+	}
+
+	.flaticon-edit:before {
+	  content: "\f113";
+	}
+
+	.flaticon-curriculum:before {
+	  content: "\f114";
+	}
+
+	.flaticon-layers-1:before {
+	  content: "\f115";
+	}
+
+	.flaticon-tools:before {
+	  content: "\f116";
+	}
+
+	.flaticon-set-square:before {
+	  content: "\f117";
+	}
+
+	.flaticon-blog:before {
+	  content: "\f118";
+	}
+
+	.flaticon-send-mail:before {
+	  content: "\f119";
+	}
+
+	.flaticon-smartphone:before {
+	  content: "\f11a";
+	}
+
+	.flaticon-book:before {
+	  content: "\f11b";
+	}
+
+	.flaticon-case:before {
+	  content: "\f11c";
+	}
+
+	.flaticon-vector:before {
+	  content: "\f11d";
+	}
+
+	.flaticon-pen-tool:before {
+	  content: "\f11e";
+	}
+
+	.flaticon-coding:before {
+	  content: "\f11f";
+	}
+
+	.flaticon-phone:before {
+	  content: "\f120";
+	}
+
+	.flaticon-tools-and-utensils:before {
+	  content: "\f121";
+	}
+
+	.flaticon-folder:before {
+	  content: "\f122";
+	}
+
+	.flaticon-web-design:before {
+	  content: "\f123";
+	}
+
+	.flaticon-photo-camera:before {
+	  content: "\f124";
+	}
+
+
+	@font-face {
+	  font-family: "iconfont";
+	  src: url('//at.alicdn.com/t/font_1495431_2o6y28lq33u.eot?t=1573022858098');
+	  /* IE9 */
+	  src: url('//at.alicdn.com/t/font_1495431_2o6y28lq33u.eot?t=1573022858098#iefix') format('embedded-opentype'),
+	    /* IE6-IE8 */
+	    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO4AAsAAAAAB7AAAANrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqDPIMFATYCJAMICwYABCAFhG0HMBurBiMRZnvQI/uLA2PcTQERQouMWVLIl+N0JPTmhxc/OjIPXP606f09gu/3++25734VSKqR7lm0EgqpiIVCKXSGkglJM/kdrKs5+yks3lRjyGATKhSSNjdjuBoVoVjyz4P/5RnpWOmF8CMAitL2j3unf5T4fEC5zD2oCzAOKMC9sE1WIAXGKQzvxOowThNommGEcDgHIUCXYVIgblxmMtAzarkhN9SFasXKLF6Aop5uieeV5+Dz8TdFnaRSQMFJhncauL3Ek4Si6b8pzkOAM50R0joKbAGZuKg0HwEpCm8haRphsgWwrdzgK74sPfZm/3gEUYXsNphi2dfEcbiX+ssEMqp4AvA+aBbVvrXEOiw5TunkrBSLdBUzG/4MbGKjZ02MIGNrU9OScOa+0+vrMhwd38TG5JUdNrTsVGelBrabiqbG09rW6djNPXbdh1zeosjYvDaKFkvHWb0y/KDXFw132VTE8c3FAkRhYkKqg+uva7tKEbi+xm9u6Kwr9OoSEY+JxVpax9fJY1xQDpNNyrhd0WyvjjZFdkBqFVrB2Q1gqnlGG8kZRfuMOGGXk+FdFVmeyCw3Tlrz0CB3G0vSmv/Wqi3T0yur1fr+6zFiazticaiSmpcXWSiipiVlxtGz4lKTuNmRhXl5F8sidybT3ZxiRuF0wcjN4Ho7cchuFHOmuzuTtGukEhTkKP80vJ+5c4mSwQ94DTH3XhXGiqNbK2PZcYw5RD9CN1Jx283z/OFtY16uvJwYYjx8Lh/EnTc+1n73seXuDgE3AJQ/RSfJ/od9x6v+8nbdc/qvszL4fH28C5zlT4ZuVlC/LUvwezgd27LJgyZlnVMZT56Aets1TU2UwNuHnodaJ0BiDHWZw0JSMw2FuiU0E7egomUbqup2oGmT7/qWkRIgidzAhnYGQt82JF0fUOi7QDPxCSomfUFVPwpouiKIdmxZiVNOeTKuggdsf3A7ZU11osLcO5orrpzmBaQ38ul8MHZDPrZgRp5izvkxk4gGzZRgZs7DGAkKk8ddOitSbn2vq17U7ZQqVXkyroIHbH9wO2XtdRdVeP8dzRVXbmhp0L+RT9c/jN3QAV3EuVPLrVxyfswkokEzJZgZI0YSJijVwzzu0tkBwXLruU66q7hbXprebg9VpSoompoMaisqUzb/q6oAAA==') format('woff2'),
+	    url('//at.alicdn.com/t/font_1495431_2o6y28lq33u.woff?t=1573022858098') format('woff'),
+	    url('//at.alicdn.com/t/font_1495431_2o6y28lq33u.ttf?t=1573022858098') format('truetype'),
+	    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+	    url('//at.alicdn.com/t/font_1495431_2o6y28lq33u.svg?t=1573022858098#iconfont') format('svg');
+	  /* iOS 4.1- */
+	}
+
+	.iconfont {
+	  font-family: "iconfont" !important;
+	  font-size: 16px;
+	  font-style: normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-rongyu:before {
+	  content: "\e75d";
+	}

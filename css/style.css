@@ -468,6 +468,11 @@ img {
   margin-bottom: 3px;
 }
 
+.header ul li a i.iconfont,
+i.fa {
+  font-size: 28px !important;
+}
+
 .header ul li.active a {
   background: #9147ff;
   color: #fff;
@@ -1041,6 +1046,10 @@ img {
   color: #222;
 }
 
+.services-block h4 img {
+  margin-left: 10px;
+}
+
 .services-block h4 a:focus,
 .services-block h4 a:hover {
   color: #9147ff;
@@ -1226,11 +1235,11 @@ img {
 
 ***/
 
-.card-blog {
+.card-honor {
   padding: 50px 50px;
 }
 
-.card-blog .title {
+.card-honor .title {
   font-size: 22px;
   font-weight: 500;
   color: #222;
@@ -1246,6 +1255,8 @@ img {
 }
 
 .news-block .image {
+  height: 150px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -1317,6 +1328,17 @@ img {
 
 .news-block:hover .overlay {
   opacity: 1;
+}
+
+.news-block .tags {
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #9147ff;
+  font-size: 14px;
+  color: #fff;
 }
 
 .news-block .date {
@@ -1549,11 +1571,11 @@ img {
 
 ***/
 
-.card-contact {
+.card-blog {
   padding: 50px 50px;
 }
 
-.card-contact .title {
+.card-blog .title {
   font-size: 22px;
   font-weight: 500;
   color: #222;
@@ -1563,7 +1585,7 @@ img {
   margin-top: -9px;
 }
 
-.card-contact h4 {
+.card-blog h4 {
   font-size: 18px;
   color: #222;
   margin-bottom: 24px;
@@ -1582,15 +1604,21 @@ img {
   font-size: 15px;
   font-weight: 400;
   padding-left: 45px;
+
 }
 
-.list-style-two li .icon {
+.list-style-two li .iconfont {
   position: absolute;
   left: 0px;
-  top: 7px;
+  top: 0px;
   color: #9147ff;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1em;
+}
+
+.list-style-two li .level {
+  position: absolute;
+  right: 0;
 }
 
 .list-style-two li:last-child .icon {
@@ -1923,7 +1951,7 @@ img {
   color: #fff;
 }
 
-.dark-version .card-blog .title {
+.dark-version .card-honor .title {
   color: #fff;
 }
 
@@ -1931,11 +1959,11 @@ img {
   background: #fff;
 }
 
-.dark-version .card-contact .title {
+.dark-version .card-blog .title {
   color: #fff;
 }
 
-.dark-version .card-contact h4 {
+.dark-version .card-blog h4 {
   color: #fff;
 }
 
@@ -1974,4 +2002,55 @@ img {
 .nicescroll-rails.nicescroll-rails-vr {
   opacity: 1 !important;
   transform: translateX(10px);
+}
+
+.education .school {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.education .school .logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+
+
+.skill-info .label {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+
+}
+
+.skill-info .label-info:nth-child(4n+0) {
+  background: #9147ff;
+}
+
+.skill-info .label-info:nth-child(4n+1) {
+  background: #ff5e7e;
+}
+
+.skill-info .label-info:nth-child(4n+2) {
+  background: #ffc713;
+}
+
+.skill-info .label-info:nth-child(4n+2) {
+  background: #51dbc3;
+}
+
+.skill-info .title {
+  font-size: 14px;
+  color: #333;
 }

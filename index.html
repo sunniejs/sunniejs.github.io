@@ -2,672 +2,584 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Mahira | VCard | CV HTML Template</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>宋楠的前端简历</title>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
-    <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
 <body>
 
-    <div class="page-wrapper default-version">
+  <div class="page-wrapper default-version">
 
-        <!-- Preloader -->
-        <div class="preloader"></div>
+    <!-- Preloader -->
+    <div class="preloader"></div>
 
-        <div class="page-background">
-            <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
-            <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
-            <canvas id="canvas"></canvas>
-        </div>
+    <div class="page-background">
+      <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+      <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+      <canvas id="canvas"></canvas>
+    </div>
 
-        <!-- Mobile menu -->
-        <div class="mobile-menu">
-            <div class="container">
-                <!--Nav Outer-->
-                <div class="nav-outer clearfix">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-
-                        <div class="navbar-collapse collapse scroll-nav clearfix">
-                            <ul class="navigation clearfix">
-
-                                <li class="current"><a href="#home">主页</a></li>
-                                <li><a href="#about">个人信息</a></li>
-                                <li><a href="#resume">简历</a></li>
-                                <li><a href="#services">工作经历</a></li>
-                                <li><a href="#work">项目经验</a></li>
-                                <li><a href="#blog">开源项目</a></li>
-                                <li><a href="#contact">荣誉证书</a></li>
-
-                            </ul>
-                        </div>
-                    </nav>
-                    <!-- Main Menu End-->
-                </div>
-                <!--Nav Outer End-->
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <div class="container">
+        <!--Nav Outer-->
+        <div class="nav-outer clearfix">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+          <!-- Main Menu -->
+          <nav class="main-menu">
+            <div class="navbar-header">
+              <!-- Toggle Button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
+
+            <div class="navbar-collapse collapse scroll-nav clearfix">
+              <ul class="navigation clearfix">
+                <li class="current"><a href="#home">主页</a></li>
+                <li><a href="#about">个人信息</a></li>
+                <li><a href="#tools">擅长技术</a></li>
+                <li><a href="#resume">工作经历</a></li>
+                <li><a href="#services">项目经验</a></li>
+                <li><a href="#work">开源项目</a></li>
+                <li><a href="#honor">荣誉证书</a></li>
+                <li><a href="#blog">博客文章</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Main Menu End-->
         </div>
+        <!--Nav Outer End-->
+      </div>
+    </div>
 
-        <div class="card-outer">
-            <div class="scroll-box">
-                <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
-                    <div class="card-wrapper">
-                        <div class="author-info" style="background:url(images/background/3.jpg) no-repeat top center">
-                            <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
-                            <div class="author">
-                                <h3>宋楠</h3>
-                                <div class="designation">
-                                    你好，我是
-                                    <div class="typing-title">
-                                        <p>一名<strong>web前端工程师。</strong></p>
-                                        <p>一名<strong>运动爱好者。</strong></p>
-                                    </div>
-                                    <span class="typed-title"></span>
-                                </div>
-                            </div>
-                            <div class="link-btn">
-                                <a href="http://www.17sucai.com/" class="theme-btn btn-style-one">下载简历</a>
-                            </div>
-                            <ul class="social-icon-two">
-                                <li><a href="https://github.com/sunnie1992"><span class="fa fa-github"></span></a></li>
-                                <li><a href="#"><span class="fa fa-weixin"></span></a></li>
-                                <li><a href="#"><span class="fa fa-envelope-o"></span></a></li>
-                            </ul>
+    <div class="card-outer">
+      <div class="scroll-box">
+        <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+          <div class="card-wrapper">
+            <div class="author-info" style="background:url(images/background/3.jpg) no-repeat top center">
+              <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
+              <div class="author">
+                <h3>宋楠</h3>
+                <div class="designation">
+                  你好，我是
+                  <div class="typing-title">
+                    <p>一名<strong>web前端工程师。</strong></p>
+                    <p>一名<strong>技术追求者。</strong></p>
+                    <p>一名<strong>运动爱好者。</strong></p>
+                  </div>
+                  <span class="typed-title"></span>
+                </div>
+              </div>
+              <div class="link-btn">
+                <a href="http://www.17sucai.com/" class="theme-btn btn-style-one">下载简历</a>
+              </div>
+              <ul class="social-icon-two">
+                <li><a href="https://github.com/sunnie1992"><span class="fa fa-github"></span></a></li>
+                <li><a href="#"><span class="fa fa-weixin"></span></a></li>
+                <li><a href="#"><span class="fa fa-envelope-o"></span></a></li>
+              </ul>
+            </div>
+            <div class="card-inner-box">
+              <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                <ul class="main-menu">
+                  <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                  <li><a href="#about"><i class="flaticon-social"></i>个人信息</a></li>
+                  <li><a href="#tools"><i class="flaticon-tools"></i>擅长技术</a></li>
+                  <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li>
+                  <li><a href="#services"><i class="flaticon-layers-1"></i>项目经验</a></li>
+                  <li><a href="#work"><i class="fa fa-github"></i>开源项目</a></li>
+                  <li><a href="#honor"><i class="iconfont icon-rongyu"></i>荣誉证书</a></li>
+                  <li><a href="#blog"><i class="flaticon-blog"></i>博客文章</a></li>
+                </ul>
+              </header>
+
+              <!-- card item -->
+              <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                  <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
+                  <div class="author">
+                    <h3>宋楠</h3>
+                    <div class="designation">
+                      你好，我是
+                      <div class="typing-title">
+                        <p>一名<strong>web前端工程师。</strong></p>
+                        <p>一名<strong>技术追求者。</strong></p>
+                        <p>一名<strong>运动爱好者。</strong></p>
+                      </div>
+                      <span class="typed-title"></span>
+                    </div>
+                  </div>
+                  <div class="text">
+                    主攻前端开发，4年+前端开发经验，方向电子商务领域。
+                    带领前端团队利用最新技术解决业务快速发展过程中的各种业务场景问题。
+                    项目包括VUE PC/Moblie/管理后台，微信小程序。有php,nodejs开发经验。
+                    热衷开源，技术分享。
+                    </p>
+                  </div>
+                  <div class="link-btn">
+                    <a href="#" class="theme-btn btn-style-one">下载简历</a>
+                    <a href="https://github.com/sunnie1992" class="theme-btn btn-style-two">github</a>
+                  </div>
+                  <ul class="social-icon-two">
+                    <li><a href="https://github.com/sunnie1992"><span class="fa fa-github"></span></a></li>
+                    <li><a href="#"><span class="fa fa-weixin"></span></a></li>
+                    <li><a href="#"><span class="fa fa-envelope-o"></span></a></li>
+                  </ul>
+                </div>
+
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">个人信息</h4>
+                  <div class="text"></div>
+                  <div class="info-list col-md-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>姓名:</strong> 宋楠</li>
+                          <li><strong>电话:</strong> 18116147012</li>
+                          <li><strong>地址:</strong> 上海浦东新区</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>邮箱:</strong> sunnie1992s@gmail.com</li>
+                          <li><strong>github:</strong> <a target='black'
+                              href="https://github.com/sunnie1992">https://github.com/sunnie1992</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <h4 class="title">教育背景</h4>
+                  <div class="education col-md-12">
+                    <div class="school">
+                      <img class="logo" src="images/school-logo.jpg" alt="">
+                      <div>
+                        <strong>河北科技师范学院 ,本科</strong> 计算机科学与技术
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-about card-item" id="tools" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">擅长技术</h4>
+                  <div class="col-md-12">
+                    <div></div>
+                    <div class="row">
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="90">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="90"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>前端</h3>
                         </div>
-                        <div class="card-inner-box">
-                            <header class="header wow fadeInLeft" data-wow-duration="1.5s">
-                                <ul class="main-menu">
-                                    <li class="active home"><a class="logo" href="#home"><img src="images/logo.png"
-                                                alt=""></a></li>
-                                    <li><a href="#about"><i class="flaticon-social"></i>个人信息</a></li>
-                                    <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li>
-                                    <li><a href="#services"><i class="flaticon-layers-1"></i>项目经验</a></li>
-                                    <li><a href="#work"><i class="flaticon-tools"></i>开源项目</a></li>
-                                    <li><a href="#blog"><i class="flaticon-blog"></i>荣誉证书</a></li>
-                                    <li><a href="#contact"><i class="flaticon-send-mail"></i>开源项目</a></li>
-                                </ul>
-                            </header>
-
-                            <!-- card item -->
-                            <div class="card-home card-item active" id="home"
-                                style="background-image:url(images/background/1.jpg)">
-
-                                <div class="card-inner wow fadeInUp" data-wow-duration="2s">
-                                    <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
-                                    <div class="author">
-                                        <h3>宋楠</h3>
-                                        <div class="designation">
-                                            你好，我是
-                                            <div class="typing-title">
-                                                <p>一名<strong>web前端工程师。</strong></p>
-                                            </div>
-                                            <span class="typed-title"></span>
-                                        </div>
-                                    </div>
-                                    <div class="text">
-                                        主攻前端开发，4年+前端开发经验，方向电子商务领域。
-                                        带领前端团队利用最新技术解决业务快速发展过程中的各种业务场景问题。
-                                        项目包括VUE PC/Moblie/管理后台，微信小程序。有php,nodejs开发经验。
-                                        热衷开源，技术分享。
-                                        </p>
-                                    </div>
-                                    <div class="link-btn">
-                                        <a href="#" class="theme-btn btn-style-one">下载简历</a>
-                                        <a href="https://github.com/sunnie1992" class="theme-btn btn-style-two">github</a>
-                                    </div>
-                                    <ul class="social-icon-two">
-                                        <li><a href="https://github.com/sunnie1992"><span class="fa fa-github"></span></a></li>
-                                        <li><a href="#"><span class="fa fa-weixin"></span></a></li>
-                                         <li><a href="#"><span class="fa fa-envelope-o"></span></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <!-- end item -->
-
-                            <!-- card item -->
-                            <div class="card-about card-item" id="about"
-                                style="background-image:url(images/background/2.jpg)">
-                                <div class="card-inner">
-                                    <h4 class="title">个人信息</h4>
-                                    <div class="text"></div>
-                                    <div class="info-list col-md-12">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="list-style-one">
-                                                    <li><strong>姓名:</strong> 宋楠</li>
-                                                    <li><strong>电话:</strong> 18116147012</li>
-                                                    <li><strong>地址:</strong> 上海浦东新区</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul class="list-style-one">
-                                                    <li><strong>邮箱:</strong> sunnie1992s@gmail.com</li>
-                                                    <li><strong>github:</strong> <a target='black'
-                                                            href="https://github.com/sunnie1992">https://github.com/sunnie1992</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h4 class="title">教育经历</h4>
-                                    <div class="row">
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!-- end item -->
-
-                            <!-- card item -->
-                            <div class="card-resume card-item" id="resume"
-                                style="background-image:url(images/background/2.jpg)">
-                                <div class="card-inner">
-                                    <h4 class="title">工作经历</h4>
-                                        <!--Column-->
-                                        <div class="timeline-column col-md-12">
-                                          <div class="row clearfix">
-                                            <div class="inner">
-                                                <!--Timeline Block-->
-                                                <div class="timeline-block">
-                                                    <div class="inner-box">
-                                                        <h4>前端工程师</h4>
-                                                        <div class="date"><span>2015-至今</span> /上海烈日科技有限公司
-                                                        </div>
-                                                        <div class="text">
-                                                            主攻前端开发，负责前端网站的基础技术框架搭建、项目开发、环境部署，以及项目发布，
-                                                            制定前端团队开发的流程。
-                                                            项目包括公司PC、移动端网站、管理后台网站，微信开发等的前端开发。
-                                                            参与项目前期讨论，经常提出修改意见，让项目开发更加合理化，提高整个团队的交付效率和质量。
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="timeline-block">
-                                                  <div class="inner-box">
-                                                      <h4>DFRobot英文商城-php研发</h4>
-                                                      <div class="date"><span>2015-至今</span> /上海智位机器人股份有限公司
-                                                      </div>
-                                                      <div class="text">
-                                                        Php+html结合ajax开发Opencart插件包括：开发购物车页面商品推荐，限时打折，首页显示模版插件。
-                                                        利用缓存技术，优化数据库查询，提高购物车页面的速度。
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                               
-                                                <!--Timeline Block-->
-                                                <div class="timeline-block">
-                                                    <div class="inner-box">
-                                                        <h4>慕课网-PHP开发(实习)</h4>
-                                                        <div class="date"><span>2014-2015(大三)</span> /  北京奥鹏文化传媒有限公司
-                                                        </div>
-                                                        <div class="text">
-                                                            主攻PHP后台开发，操作数据库，统计各类数据，编写shell数据脚步，优化登录页面速度等。
-                                                            后台数据分析包括各省份用户分布情况，统计整合用户切换视频分辨率情况。
-                                                            编写shell统计脚本，定时运行任务，统计每天不同播放器类型使用的人数、信息等。
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- card item -->
-                            <div class="card-resume card-item" id="services"
-                            style="background-image:url(images/background/2.jpg)">
-                            <div class="card-inner">
-                                <h4 class="title">项目经验</h4>
-                                   <!--Column-->
-                                <div class="timeline-column  col-md-12">
-                                <div class="row clearfix">
-                                        <div class="inner">
-                                            <!--Timeline Block-->
-                                            <div class="timeline-block">
-                                                <div class="inner-box">
-                                                    <h4>捷买士商城小程序</h4>
-                                                    <div class="date">  技术栈:小程序+gulp+scss</div>
-                                                    <div class="text">
-                                                      <ul >
-                                                        <li>构建小程序开发框架，实现七牛云自动上传+图片压缩+scss+封装wx.request+实时编译+多环境配置技术方案，
-                                                            克服了小程序原生开发的不方便，极速研发、研发成本大大降低。</li>
-                                                        <li>实现了登录授权、分享、商品、购物车、下单、支付、个人中心等主要功能。</li>
-                                                        <li>实现了生成canvas海报图，签到大转盘，红包雨，九宫格翻牌等营销功能。</li>
-                                                        <li>编程高度组件化，优化登录逻辑，优化了图片请求慢，时效性不高的接口进行数据缓存，canvas海报图缓存。</li> 
-                                                        <li>带领前端团队高效完成业务模块开发，产品上线后不断的维护与重构，优化用户体验及性能。</li>
-                                                      </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="inner-box">
-                                                    <h4>商城后台管理系统</h4>
-                                                    <div class="date">  技术栈: vue+elementUI+axios+vuex+webpack</div>
-                                                    <div class="text">
-                                                        <ul>
-                                                            <li>vue+elementUI+webpack构建开发框架，快速开发标准版后台。</li>
-                                                            <li>实现了用户管理,权限管理(动态路由),用户管理，优惠券管理，订单管理等主要功能。</li>
-                                                            <li>开发热点图，运费模板等组件。</li>
-                                                            <li>二次封装图片上传组件，表格组件结合mixin实现搜索翻页功能等，大幅度减少代码量。</li>
-                                                          </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="inner-box">
-                                                    <h4>微信H5商城</h4>
-                                                    <div class="date">技术栈: vue+elementUI+axios+vuex+webpack</div>
-                                                    <div class="text">
-                                                        <ul>
-                                                            <li>vue+vantUI+webpack开发微信商城。</li>
-                                                            <li>实现了H5微信授权，微信分享，支付，商品购物车，我的等主要功能。</li>
-                                                            <li>构建vue+webpack+vantui+sass+rem移动端开发解决方案。</li>
-                                                            <li>实现了线上环境使用CDN,优化了首屏加载速度,提升用户体验。</li>
-                                                          </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="inner-box">
-                                                    <h4>nodeJS文章发布系统</h4>
-                                                    <div class="date">技术栈: NodeJS+koa2+pm2+vue+elementUI+axios+vuex+webpack</div>
-                                                    <div class="text">
-                                                        <ul>
-                                                            <li>后端采用 NodeJS+koa2+开发,vue开发管理后台以及H5页面,pm2发布前后端项目。</li>
-                                                            <li>NodeJS实现接口身份验证JWT认证登录</li>
-                                                            <li>管理后台实现了用户模块，分类模块，文章模块，搜索等主要功能。H5实现文章分类及文章详情浏览。</li>
-                                                          </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="inner-box">
-                                                    <h4> 多个官网项目 </h4>
-                                                    <div class="date">技术栈:php+TweenMax+jquery+css+animation</div>
-                                                    <div class="text">
-                                                        <ul>
-                                                            <li><a href="http://www.iplus-sh.com/">IPLUS官网</a>：使用TweenMax html动画完成复杂动画需求</li>
-                                                            <li>碧云文体发展中心 ：官方新闻发布系统全站开发，负责前端以及后台PHP二次开发PHPCMS新闻发布系统。</li>
-                                                          </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- card item -->
-                            <div class="card-projects card-item" id="work"
-                                style="background-image:url(images/background/2.jpg)">
-                                <div class="card-inner">
-                                    <h4 class="title">开源项目</h4>
-                                    <div class="row">
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
-                                              <h4><a href="https://github.com/sunnie1992/sol-weapp">Sol Weapp</a></h4>
-                                              <div class="text">微信小程序,商城营销组件库。红包雨、大转盘、九宫格翻牌等营销组件，导航栏、筛选页、高度业务化组件。
-                                                  </div>
-                                          </div>
-                                      </div>
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-folder"></span></div>
-                                              <h4><a href="https://github.com/sunnie1992/vue_canvas_poster">Vue Canvas Poster</a></h4>
-                                              <div class="text">一个通过 css 属性画 canvas 图片的轻量级的 vue 组件 (A lightweight vue components use canvas draw image by css properties.)</div>
-                                          </div>
-                                      </div>
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-computer"></span></div>
-                                              <h4><a href="https://github.com/sunnie1992/vue-h5-template">Vue H5 Template</a></h4>
-                                              <div class="text">基于vue-cli3.0+webpack 4+vant ui + sass+ rem适配方案+axios封装，快速构建手机端模板脚手架</div>
-                                          </div>
-                                      </div>
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
-                                              <h4><a href="blog-single.html">Logo Design</a></h4>
-                                              <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
-                                          </div>
-                                      </div>
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-web-design"></span>
-                                              </div>
-                                              <h4><a href="blog-single.html">Apps Design</a></h4>
-                                              <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
-                                          </div>
-                                      </div>
-                                      <div class="services-block col-md-12">
-                                          <div class="inner-box">
-                                              <div class="icon-box"><span class="icon flaticon-photo-camera"></span>
-                                              </div>
-                                              <h4><a href="blog-single.html">Photography</a></h4>
-                                              <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                    <div class="row">
-                                      <!-- About Block -->
-                                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
-                                          <div class="inner-box">
-                                              <div class="graph-outer">
-                                                  <input type="text" class="dial" data-fgColor="#9147ff"
-                                                      data-bgColor="#f5f5f5" data-width="90" data-height="90"
-                                                      data-linecap="normal" value="75">
-                                                  <div class="inner-text count-box"><span class="count-text"
-                                                          data-stop="75" data-speed="2000"></span>%</div>
-                                              </div>
-                                              <h3>Design</h3>
-                                          </div>
-                                      </div>
-
-                                      <!-- About Block -->
-                                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
-                                          <div class="inner-box">
-                                              <div class="graph-outer">
-                                                  <input type="text" class="dial" data-fgColor="#ff5e7e"
-                                                      data-bgColor="#f5f5f5" data-width="90" data-height="90"
-                                                      data-linecap="normal" value="75">
-                                                  <div class="inner-text count-box"><span class="count-text"
-                                                          data-stop="75" data-speed="2000"></span>%</div>
-                                              </div>
-                                              <h3>HTML</h3>
-                                          </div>
-                                      </div>
-
-                                      <!-- About Block -->
-                                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
-                                          <div class="inner-box">
-                                              <div class="graph-outer">
-                                                  <input type="text" class="dial" data-fgColor="#ffc713"
-                                                      data-bgColor="#f5f5f5" data-width="90" data-height="90"
-                                                      data-linecap="normal" value="75">
-                                                  <div class="inner-text count-box"><span class="count-text"
-                                                          data-stop="75" data-speed="2000"></span>%</div>
-                                              </div>
-                                              <h3>WordPress </h3>
-                                          </div>
-                                      </div>
-
-                                      <!-- About Block -->
-                                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
-                                          <div class="inner-box">
-                                              <div class="graph-outer">
-                                                  <input type="text" class="dial" data-fgColor="#51dbc3"
-                                                      data-bgColor="#f5f5f5" data-width="90" data-height="90"
-                                                      data-linecap="normal" value="75">
-                                                  <div class="inner-text count-box"><span class="count-text"
-                                                          data-stop="75" data-speed="2000"></span>%</div>
-                                              </div>
-                                              <h3>PHP </h3>
-                                          </div>
-                                      </div>
-                                  </div>
-                                    <div class="row">
-                                        <div class="projects-block col-md-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/1.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/1.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="projects-block col-md-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/2.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/2.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="projects-block col-md-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/3.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/3.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="projects-block col-md-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/4.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/4.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="projects-block col-sm-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/5.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/5.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="projects-block col-sm-6">
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/6.jpg" alt="image">
-                                                    <div class="overlay">
-                                                        <a class="lightbox-image option-btn" title="Image Caption Here"
-                                                            data-fancybox-group="example-gallery"
-                                                            href="images/gallery/6.jpg">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <div class="caption-title">
-                                                    <h3><a href="#">Portfolio Item Title</a></h3>
-                                                    <span>Branding, Print</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- card item -->
-                            <div class="card-blog card-item" id="blog"
-                                style="background-image:url(images/background/2.jpg)">
-                                <div class="card-inner">
-                                    <h4 class="title">荣誉证书</h4>
-                                    <div class="col-md-6">
-                                        <ul class="list-style-two">
-                                            <li><span class="icon flaticon-signs"></span>PO Box 16122 Collins Street
-                                                <br> West Victoria 8007 Canada </li>
-                                            <li><span class="icon flaticon-smartphone"></span>(+48) 564-334-21-22-34
-                                                <br>(+48) 564-334-21-25</li>
-                                            <li><span class="icon flaticon-note-1"></span>info@cretox.com
-                                                <br>info@example.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- card item -->
-                            <div class="card-contact card-item" id="contact"
-                                style="background-image:url(images/background/2.jpg)">
-                                <div class="card-inner">
-                                    <h3 class="title">Contact</h3>
-                                    <h4>Keep In Touch</h4>
-                                    <div class="row clearfix">
-                                        <div class="col-md-6">
-                                            <ul class="list-style-two">
-                                                <li><span class="icon flaticon-signs"></span>PO Box 16122 Collins Street
-                                                    <br> West Victoria 8007 Canada </li>
-                                                <li><span class="icon flaticon-smartphone"></span>(+48) 564-334-21-22-34
-                                                    <br>(+48) 564-334-21-25</li>
-                                                <li><span class="icon flaticon-note-1"></span>info@cretox.com
-                                                    <br>info@example.com</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="map-section">
-                                                <div class="home-google-map">
-                                                    <div class="google-map" id="contact-google-map"
-                                                        data-map-lat="40.700843" data-map-lng="-74.004012"
-                                                        data-icon-path="images/icons/map-marker.png"
-                                                        data-map-title="Chester" data-map-zoom="11">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h4>How Can I Help?</h4>
-                                    <!-- Contact Form -->
-                                    <div class="contact-form">
-                                        <!--Comment Form-->
-                                        <form method="post" action="sendemail.php" id="contact-form">
-                                            <div class="row clearfix">
-
-                                                <div class="col-md-6 form-group">
-                                                    <input type="text" name="username" placeholder="Name" required>
-                                                </div>
-
-                                                <div class="col-md-6 form-group">
-                                                    <input type="email" name="email" placeholder="Email" required>
-                                                </div>
-
-                                                <div class="col-md-6 form-group">
-                                                    <input type="text" name="subject" placeholder="Subject" required>
-                                                </div>
-
-                                                <div class="col-md-6 form-group">
-                                                    <input type="text" name="phone" placeholder="Phone" required>
-                                                </div>
-
-                                                <div class="col-lg-12 col-md-12 form-group">
-                                                    <textarea name="message" placeholder="Message"></textarea>
-                                                </div>
-
-                                                <div class="col-lg-12 col-md-12 form-group">
-                                                    <button class="theme-btn btn-style-two" type="submit"
-                                                        name="submit-form">Submit Now </button>
-                                                </div>
-
-                                            </div>
-                                        </form>
-
-                                    </div>
-                                    <!--End Contact Form -->
-
-                                </div>
-                            </div>
-                            <!-- end item -->
-
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="80">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="80"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>构建/工具</h3>
                         </div>
+                      </div>
+
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="50">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="50"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>服务端</h3>
+                        </div>
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="60">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="60"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>产品设计</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="skill-info">
+                          <h4 class="sub-title">前端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Html5</span>
+                          <span class="label label-info">Css</span>
+                          <span class="label label-info">Vue</span>
+                          <span class="label label-info">Canvas</span>
+                          <span class="label label-info">Jquery</span>
+                          <span class="label label-info">Javascript</span>
+                          <span class="label label-info">Sass</span>
+                        </div>
+                        <h4 class="sub-title">构建/工具:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Webpack</span>
+                          <span class="label label-info">Gulp</span>
+                          <span class="label label-info">Git</span>
+                        </div>
+                        <h4 class="sub-title">服务端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Php</span>
+                          <span class="label label-info">Mysql</span>
+                          <span class="label label-info">NodeJS</span>
+                          <span class="label label-info">Koa2</span>
+                        </div>
+                        <h4 class="sub-title">产品设计:</h4>
+                        <div class="labels">
+                            <span class="label label-info">Axure</span>
+                            <span class="label label-info">Photoshop</span>
+                            <span class="label label-info">Illustrator</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">工作经历</h4>
+                  <!--Column-->
+                  <div class="timeline-column col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>前端工程师</h4>
+                            <div class="date"><span>2015-至今</span> /上海烈日科技有限公司
+                            </div>
+                            <div class="text">
+                              主攻前端开发，负责前端网站的基础技术框架搭建、项目开发、环境部署，以及项目发布，
+                              制定前端团队开发的流程。
+                              项目包括公司PC、移动端网站、管理后台网站，微信开发等的前端开发。
+                              参与项目前期讨论，经常提出修改意见，让项目开发更加合理化，提高整个团队的交付效率和质量。
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>DFRobot英文商城-php研发</h4>
+                            <div class="date"><span>2015-至今</span> /上海智位机器人股份有限公司
+                            </div>
+                            <div class="text">
+                              Php+html结合ajax开发Opencart插件包括：开发购物车页面商品推荐，限时打折，首页显示模版插件。
+                              利用缓存技术，优化数据库查询，提高购物车页面的速度。
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>慕课网-PHP开发(实习)</h4>
+                            <div class="date"><span>2014-2015(大三)</span> / 北京奥鹏文化传媒有限公司
+                            </div>
+                            <div class="text">
+                              主攻PHP后台开发，操作数据库，统计各类数据，编写shell数据脚步，优化登录页面速度等。
+                              后台数据分析包括各省份用户分布情况，统计整合用户切换视频分辨率情况。
+                              编写shell统计脚本，定时运行任务，统计每天不同播放器类型使用的人数、信息等。
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
+                  </div>
                 </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-resume card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">项目经验</h4>
+                  <!--Column-->
+                  <div class="timeline-column  col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>捷买士商城小程序</h4>
+                            <div class="date"> 技术栈:小程序+gulp+scss</div>
+                            <div class="text">
+                              <ul>
+                                <li>构建小程序开发框架，实现七牛云自动上传+图片压缩+scss+封装wx.request+实时编译+多环境配置技术方案，
+                                  克服了小程序原生开发的不方便，极速研发、研发成本大大降低。</li>
+                                <li>实现了登录授权、分享、商品、购物车、下单、支付、个人中心等主要功能。</li>
+                                <li>实现了生成canvas海报图，签到大转盘，红包雨，九宫格翻牌等营销功能。</li>
+                                <li>编程高度组件化，优化登录逻辑，优化了图片请求慢，时效性不高的接口进行数据缓存，canvas海报图缓存。</li>
+                                <li>带领前端团队高效完成业务模块开发，产品上线后不断的维护与重构，优化用户体验及性能。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>商城后台管理系统</h4>
+                            <div class="date"> 技术栈: vue+elementUI+axios+vuex+webpack</div>
+                            <div class="text">
+                              <ul>
+                                <li>vue+elementUI+webpack构建开发框架，快速开发标准版后台。</li>
+                                <li>实现了用户管理,权限管理(动态路由),用户管理，优惠券管理，订单管理等主要功能。</li>
+                                <li>开发热点图，运费模板等组件。</li>
+                                <li>二次封装图片上传组件，表格组件结合mixin实现搜索翻页功能等，大幅度减少代码量。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>微信H5商城</h4>
+                            <div class="date">技术栈: vue+elementUI+axios+vuex+webpack</div>
+                            <div class="text">
+                              <ul>
+                                <li>vue+vantUI+webpack开发微信商城。</li>
+                                <li>实现了H5微信授权，微信分享，支付，商品购物车，我的等主要功能。</li>
+                                <li>构建vue+webpack+vantui+sass+rem移动端开发解决方案。</li>
+                                <li>实现了线上环境使用CDN,优化了首屏加载速度,提升用户体验。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>nodeJS文章发布系统</h4>
+                            <div class="date">技术栈: NodeJS+koa2+pm2+vue+elementUI+axios+vuex+webpack</div>
+                            <div class="text">
+                              <ul>
+                                <li>后端采用 NodeJS+koa2+开发,vue开发管理后台以及H5页面,pm2发布前后端项目。</li>
+                                <li>NodeJS实现接口身份验证JWT认证登录</li>
+                                <li>管理后台实现了用户模块，分类模块，文章模块，搜索等主要功能。H5实现文章分类及文章详情浏览。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4> 多个官网项目 </h4>
+                            <div class="date">技术栈:php+TweenMax+jquery+css+animation</div>
+                            <div class="text">
+                              <ul>
+                                <li><a href="http://www.iplus-sh.com/">IPLUS官网</a>：使用TweenMax html动画完成复杂动画需求</li>
+                                <li>碧云文体发展中心 ：官方新闻发布系统全站开发，负责前端以及后台PHP二次开发PHPCMS新闻发布系统。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-projects card-item" id="work" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">开源项目</h4>
+                  <div class="row">
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                        <h4><a href="https://github.com/sunnie1992/sol-weapp">Sol Weapp <img
+                              src="https://img.shields.io/github/stars/sunnie1992/sol-weapp.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">微信小程序,商城营销组件库。红包雨、大转盘、九宫格翻牌等营销组件，导航栏、筛选页、高度业务化组件。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                        <h4><a href="https://github.com/sunnie1992/vue_canvas_poster">Vue Canvas Poster <img
+                              src="https://img.shields.io/github/stars/sunnie1992/vue_canvas_poster.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">一个通过 css 属性画 canvas 图片的轻量级的 vue 组件 (A lightweight vue components use canvas
+                          draw image by css properties.)</div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                        <h4><a href="https://github.com/sunnie1992/vue-wechat-auth">Vue Wechat Auth <img
+                              src="https://img.shields.io/github/stars/sunnie1992/vue-wechat-auth.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">vue微信网页授权解决方案</div>
+                      </div>
+                    </div>
+
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                        <h4><a href="https://github.com/sunnie1992/weapp-gulp">Weapp Gulp <img
+                              src="https://img.shields.io/github/stars/sunnie1992/weapp-gulp.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">基于 gulp4.0 实现七牛云自动上传+图片压缩+scss+封装 wx.request+实时编译+多环境配置，脚手架开发小程序</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-honor card-item" id="honor" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">证书</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>大学英语四级 <span class="level">通过</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>网络应用管理员 <span class="level">通过</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>全国信息技术应用培训教育工程师证书 <span class="level">通过</span></li>
+                    </ul>
+                  </div>
+                  <h4 class="title">荣誉</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>国家励志奖学金 <span class="level">国家级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>一等奖学金 <span class="level">校级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>"基于手机端的校园网站"获得"校园创新大赛"一等奖 <span
+                          class="level">校级</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-blog card-item" id="blog" style="background-image:url(images/background/2.jpg)">
+                <div class="card-inner">
+                  <h4 class="title">优秀博文</h4>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-1.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://segmentfault.com/a/1190000019488056"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://segmentfault.com/a/1190000019488056">vue微信网页授权最终解决方案</a>
+                        </h4>
+                        <div class="tags">微信开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-2.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://juejin.im/post/5d0af5d2f265da1b614ffd72"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://juejin.im/post/5d0af5d2f265da1b614ffd72">electron
+                            vue桌面应用入门实例</a></h4>
+                        <div class="tags">electron开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="images/resource/blog-3.jpg" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://juejin.im/post/5cfefc73f265da1bba58f9f7"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://juejin.im/post/5cfefc73f265da1bba58f9f7">vuecli3 vant rem
+                            移动端框架方案</a></h4>
+                        <div class="tags">vue开发</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- end item -->
             </div>
+          </div>
 
         </div>
+      </div>
 
     </div>
-    <!--End pagewrapper-->
+
+  </div>
+  <!--End pagewrapper-->
 
 
-    <script src="js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
-    <script src="js/element-in-view.js"></script>
-    <script src="js/knob.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/mousemoveparallax.js"></script>
-    <script src="js/pagenav.js"></script>
-    <script src="js/jquery-type.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/particle-alone.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/element-in-view.js"></script>
+  <script src="js/knob.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/mousemoveparallax.js"></script>
+  <script src="js/pagenav.js"></script>
+  <script src="js/jquery-type.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/particle-alone.js"></script>
+  <script src="js/script.js"></script>
 
-    <!--Google Map APi Key-->
-    <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
-    <script src="js/gmaps.js"></script>
-    <script src="js/map-script.js"></script>
-    <!--End Google Map APi-->
+  <!--Google Map APi Key-->
+  <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+  <script src="js/gmaps.js"></script>
+  <script src="js/map-script.js"></script>
+  <!--End Google Map APi-->
 
 </body>
 
