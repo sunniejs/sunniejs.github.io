@@ -423,16 +423,8 @@ img {
   line-height: 54px;
   margin: 20px auto;
 }
-.header ul li a.logo img {
- width:30px;
- height: 30px;
-}
 .header ul li.active a.logo {
   background-color: transparent;
-}
-.header ul li.active a.logo img {
- width:30px;
- height: 30px;
 }
 
 .header ul li a {

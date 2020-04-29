@@ -25,6 +25,7 @@
  }
 
  @media only screen and (max-width: 1199px) {
+ 
    .main-menu .navbar-collapse {
      max-height: 300px;
      float: none;
@@ -258,7 +259,7 @@
    .card-inner-box .card-item {
      left: 0 !important;
      position: relative;
-     background-color: #fff;
+     /* background-color: #fff; */
      padding-left: 0;
      padding-right: 0;
      max-width: 100%;
